@@ -1,0 +1,10 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+/*# sourceMappingURL=tailwind.css.map */
+
+input:checked + div {
+  @apply bg-checked-color;
+}
